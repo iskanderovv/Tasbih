@@ -1,0 +1,62 @@
+.tasbih {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+    &-content__tools {
+        display: flex;
+        gap: 20px;
+    }
+
+    &-content-tools__total {
+        background: #01301c;
+        padding: 2px 40px;
+        border: none;
+        font-size: 18px;
+        border-radius: 16px;
+        color: white;
+        font-weight: 500;
+    }
+
+    &-content-tools__reset {
+        background: orange;
+        padding: 2px 40px;
+        border: none;
+        font-size: 18px;
+        border-radius: 16px;
+        color: white;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    &-content__counter {
+        font-size: 120px;
+        user-select: none;
+        margin: 50px 0;
+        color: white;
+        text-align: center;
+    }
+
+    &-content__button {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: #01301c;
+        color: #00ea86;
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+
+        &:active{
+        background: #023b23;
+        }
+    }
+
+    .bi-chevron-up {
+        font-size: 70px;
+        cursor: pointer;
+        user-select: none;
+    }
+}
