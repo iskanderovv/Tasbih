@@ -22,10 +22,10 @@ const Tasbih = () => {
         setTotal(prevCount => prevCount + 1);
         playAudioCount();
 
-        if (count === 32) {
+        if (count === 32 || count === 65 || count === 98) {
             playAudioVibration();
         }
-        if (count === 33) {
+        if (count === 99) {
             setCount(0);
         }
     }
